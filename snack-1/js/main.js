@@ -15,7 +15,7 @@ for(let i = 0; i < 10; i++){
 }
 
 for(let i = 0; i < zucchine.length; i++){
-    pesoTotale = zucchine[i].peso;
+    pesoTotale += zucchine[i].peso;
 }
 
 console.log(pesoTotale);
