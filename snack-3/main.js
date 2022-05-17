@@ -72,11 +72,6 @@ let automobili = [
 
 ];
 
-automobili.forEach((elm, i) => {
-    elm.alimentazione["benzina"]
-});
-
-
 const benzina = automobili.filter((elm) => elm.alimentazione === "benzina");
 
 const diesel = automobili.filter((elm) => elm.alimentazione === "diesel");
